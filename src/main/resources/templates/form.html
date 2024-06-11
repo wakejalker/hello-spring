@@ -1,28 +1,15 @@
 <!DOCTYPE html>
-<html lang="eng" xmlns:th="http://www.thymeleaf.org/">
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
 <head>
-    <meta charset="UTF-8" />
-    <title></title>
+    <meta charset="UTF-8"/>
+    <title>Hello, Spring!</title>
 </head>
 <body>
 
-
-
-<form action='/hello' method='post'> + // submit a request to /hello
-    <label for='name'>Name:</label>
-    <input type='text' name='name'>
-    <label for='language'>Language:</label>
-    <select name='language'>
-        <option value='english'>English</option>
-        <option value='french'>French</option>
-        <option value='spanish'>Spanish</option>
-        <option value='german'>German</option>
-        <option value='chinese'>Chinese</option>
-        "</select>" +
-    <input type='submit' value='Greet Me!'>
+<form method = 'post' action = '/hello'>
+    <input type = 'text' name = 'name' >
+    <input type = 'submit' value = 'Greet Me!' >
 </form>
-
-
 
 </body>
 </html>
